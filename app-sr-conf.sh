@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install essential packages.
-sudo dnf install -y tree unzip
+sudo dnf install -y tree unzip git python3-pip
 
 # Create project directory and change ownership.
 export PROJECT_DIR=/opt/twp
